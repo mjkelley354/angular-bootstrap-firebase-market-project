@@ -8,7 +8,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ManageProductsComponent } from './components/manage-products/manage-products.component';
 
 
-const routes: Routes = [
+export const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'manage-orders', component: ManageOrdersComponent },
   { path: 'manage-products', component: ManageProductsComponent },
